@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     background: #FFF;
     color: #434455;
 }
@@ -28,6 +29,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
     color: #4D5AE5;
@@ -41,6 +43,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-link);
 }
 
@@ -49,8 +52,12 @@ body {
     color: var(--active-link);
 }
 
-.adress-link {
+.adress {
     font-style: normal;
+}
+
+.adress-link {
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -66,13 +73,21 @@ body {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.1;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 
 .hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #FFF;
     background-color: #4D5AE5;
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -84,24 +99,34 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-title);
 }
+
+/* .feature-text{
+    letter-spacing: 0.02em;
+} */
 
 .title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--color-title);
 }
 
 .team-item {
-    background-color: #fff;
+    background-color: #FFF;
 }
 
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-title);
 }
 
@@ -122,6 +147,11 @@ body {
 }
 
 .filter-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
     cursor: pointer;
@@ -131,4 +161,14 @@ body {
 .filter-btn:focus {
     color: #FFF;
     background-color: var(--active-bg-btn);
+}
+.app-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;    
+        color: #2E2F42;
+}
+.app-text{
+        color: #434455;
 }
