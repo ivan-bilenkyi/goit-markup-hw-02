@@ -7,15 +7,17 @@ body {
     color: #434455;
 }
 
-:root{
+:root {
     --active-link: #404BBF;
     --active-bg-btn: #404BBF;
     --color-title: #2E2F42;
     --color-link: #2E2F42;
 }
+
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -74,7 +76,7 @@ body {
 }
 
 .hero-btn:hover,
-.hero-btn:focus{
+.hero-btn:focus {
     background-color: var(--active-bg-btn);
 }
 
@@ -91,35 +93,42 @@ body {
     line-height: 1.1;
     color: var(--color-title);
 }
-.team-item{
+
+.team-item {
     background-color: #fff;
 }
+
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-title);
 }
-.team{
+
+.team {
     background-color: #F4F4FD;
 }
-.footer{
+
+.footer {
     background-color: #2E2F42;
 }
-.footer-log-span{
+
+.footer-log-span {
     color: #F4F4FD;
 }
-.footer-text{
+
+.footer-text {
     color: #F4F4FD;
 }
-.filter-btn{
+
+.filter-btn {
     color: #4D5AE5;
     background-color: #F4F4FD;
     cursor: pointer;
 }
 
 .filter-btn:hover,
-.filter-btn:focus{
+.filter-btn:focus {
     color: #FFF;
     background-color: var(--active-bg-btn);
 }
