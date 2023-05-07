@@ -1,13 +1,23 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     background: #FFF;
     color: #434455;
 }
 
+:root{
+    --active-link: #404BBF;
+    --active-bg-btn: #404BBF;
+    --color-title: #2E2F42;
+    --color-link: #2E2F42;
+}
 .list {
     list-style: none;
+}
+.link {
+    text-decoration: none;
 }
 
 /* Header nav */
@@ -29,31 +39,26 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;
+    color: var(--color-link);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-    color: #404BBF;
+    color: var(--active-link);
 }
 
 .adress-link {
     font-style: normal;
+    color: #434455;
 }
 
 .adress-link:hover,
 .adress-link:focus {
-    color: #404BBF;
-}
-
-.link {
-    color: #2E2F42;
-    text-decoration: none;
+    color: var(--active-link);
 }
 
 .hero {
     background-color: #2E2F42;
-    ;
 }
 
 .hero-title {
@@ -64,21 +69,27 @@ body {
 }
 
 .hero-btn {
-    background: #4D5AE5;
+    color: #FFF;
+    background-color: #4D5AE5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--active-bg-btn);
 }
 
 .feature-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--color-title);
 }
 
 .title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
-    color: #2E2F42;
+    color: var(--color-title);
 }
 .team-item{
     background-color: #fff;
@@ -87,7 +98,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--color-title);
 }
 .team{
     background-color: #F4F4FD;
@@ -110,5 +121,5 @@ body {
 .filter-btn:hover,
 .filter-btn:focus{
     color: #FFF;
-    background: #404BBF;
+    background-color: var(--active-bg-btn);
 }
